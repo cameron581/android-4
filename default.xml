@@ -29,7 +29,7 @@
   <project path="build" name="android_build" remote="ls" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="ls" revision="kitkat" />
+  <project path="android" name="cameron581/android-4" remote="gh" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
   <project path="bionic" name="android_bionic" remote="ls" revision="kitkat" />
@@ -427,5 +427,5 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
-
+  <project path="device/lge/mako" name="cameron581/android_device_lge_mako" remote="gh" revision="kitkat" />
 </manifest>
